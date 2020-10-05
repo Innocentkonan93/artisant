@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Artishop</title>
+</head>
+<body style="background-color:#555;">
+    <div class="center">
+        <div style="width: 80%;">
+            
+            <div style=" height: 125px; margin-bottom: 40px;">
+                
+                <div style="width: 15%; float: left; margin-top: 20px;">
+                    <img src="img/logo.png" alt="" width="90px">
+                </div>
+                <div style="width: 85%; float: right;">
+                    <div class="topnav" style="margin-top: 10px;">
+                        <input type="text" placeholder="Search..">
+                    </div>
+                    <div style="float: right;">
+                        <p style="text-align: right; margin-top: 20px; color: white; ">Bienvenu sur le site des artisants</p> <br>
+                        <li style="margin-left: 5px; color: #feca57;"> My accoubt |</li>
+                        <li style="margin-left: 5px; color: #feca57;"> My Whishlist |</li>
+                        <li style="margin-left: 5px; color: #feca57;"> My cart |</li>
+                        <li style="margin-left: 5px; color: #feca57;"> Checkout |</li>
+                        <li style="margin-left: 5px; color: #feca57;"> Login </li>
+                    </div>
+                </div>
+            </div>
+    
+            <ul id="myDIV" class="shadowMenu" style="z-index: 9999;">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="page2.html">Furnitures</a></li>
+                <li><a href="#contact">Electronics</a></li>
+                <li><a href="#news">Appareil</a></li>
+                <li><a href="#contact">Music</a></li>
+                <li><a href="#news">E-Books</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+
+            <div id="shadow2" style="width: 100%; height:1000px ; margin-top: 20px;">
+
+                <div style="width: 100%;">
+
+                    <!-- Coté gauche -->
+                   <div style="width: 16%; float: left; ">
+                       <div style="width: 100%; height: 200px; background-color: #feca57; margin-bottom: 15px;">
+                           <h3>En Promo</h3>
+                           <img src="img/promo.jpg" alt="" width="160" height="170">
+                       </div>
+                       <div style="width: 100%; height: 200px; background-color: #feca57; margin-bottom: 15px;">
+                           <h3>Choisir une couleur</h3>
+                           <button onclick="myFunction()" style="height: 30px; width: 45px; margin: 10px 5px; background-color: blue;">
+                            1
+                           </button>
+                           <button onclick="myFunction2()" style="height: 30px; width: 45px; margin: 10px 5px; background-color: red;">
+                            2
+                           </button>
+                           <button onclick="myFunction3()"  style="height: 30px; width: 45px; margin: 10px 5px; background-color: green;">
+                            3
+                           </button>
+                           <button onclick="myFunction4()" style="height: 30px; width: 45px; margin: 10px 5px; background-color: orange;">
+                            4
+                           </button>
+                           <button onclick="myFunction5()" style="height: 30px; width: 45px; margin: 10px 5px; background-color: cyan;">
+                            5
+                           </button>
+                           <button onclick="myFunction6()"  style="height: 30px; width: 45px; margin: 10px 5px; background-color: purple;">
+                            6
+                           </button>
+                           <button onclick="myFunction7()" style="height: 30px; width: 45px; margin: 10px 5px; background-color: grey;">
+                            7
+                           </button>
+                           <button onclick="myFunction8()" style="height: 30px; width: 45px; margin: 10px 5px; background-color: pink;">
+                            8
+                           </button>
+
+                       </div>
+                       <div style="width: 100%; height: 200px;  margin-bottom: 15px;">
+                           <h3>Tagues populaires</h3>
+                       </div>
+                   </div>
+                 <!-- Coté droite -->
+                   <div style="width: 83%; float: right; ">
+    
+                       <div style="width: 74%; float: left; ">
+       
+                         <div class="slideshow-container" style="box-shadow: inset 3px 1px;">
+    
+                           <div class="mySlides fade">
+                             <div class="numbertext">1 / 3</div>
+                             <a href="page2.html"><img src="img/p1.jpg" style="width:100%; height: 300px;"></a>  
+    
+                           </div>
+                           
+                           <div class="mySlides fade">
+                             <div class="numbertext">2 / 3</div>
+                             <a href="page2.html"><img src="img/p3.jpg" style="width:100%; height: 300px;"></a>
+    
+                           </div>
+                           
+                           <div class="mySlides fade">
+                             <div class="numbertext">3 / 3</div>
+                             <a href="page2.html"><img src="img/p5.jpg" style="width:100%; height: 300px;"></a>
+    
+                           </div>
+                           
+                           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                           <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                           
+                           </div>
+                            <!-- Infos Livraison -->
+    
+    
+                           <div style="width: 100%; height: 90px; background-color: #feca57; margin-top: 20px; border-radius: 5px;">
+                               <h3>Infos de livraison</h3>
+                               <h4 style="text-align: center; margin-top: 5px;">La livraison se fait dans les locaux de votre choix.</h4>
+                               <h1 style="text-align: center; margin-top: 5px;">7/24</h1>
+                           </div>
+    
+                           <!-- Meilleurs ventes -->
+    
+                           <div style="width: 100%; background-color: white; margin-top: 20px;">
+                               <h2 style="margin: 4px;">Meilleurs ventes</h2>
+       
+                               <div style="width: 100%; height: 90px; margin-top: 20px;">
+                                   <div style="width: 50%; float: left;">
+                                       <div style="width: 25%; float: left; border-radius: 10px; padding:7px 7px;">
+                                           <img src="img/p4.png " alt="" style="width: 70px; height: 73px;">
+                                       </div>
+                                       <div style="width: 70%; float: right; ">
+                                           <h4>Produits</h4>
+                                           <p style="margin-top: 8px;">See all in <a href="">Category 1</a></p>
+                                       </div>
+                                   </div>
+                                   <div style="width: 50%; float: left;">
+                                       <div style="width: 25%; float: left; border-radius: 10px;  padding:7px 7px;">
+                                           <img src="img/p6.jpeg " alt="" style="width: 70px; height: 73px;">
+                                       </div>
+                                       <div style="width: 70%; float: right; ">
+                                           <h4>Produits</h4>
+                                           <p style="margin-top: 8px;">See all in <a href="">Category 2</a></p>
+                                       </div>
+                                   </div>
+                               </div>
+    
+                               <div style="width: 100%; height: 90px; margin-top: 20px;">
+                                   <div style="width: 50%; float: left;">
+                                       <div style="width: 25%; float: left; border-radius: 10px;  padding:0px 7px;">
+                                           <img src="img/p8.jpg" alt="" style="width: 70px;">
+                                       </div>
+                                       <div style="width: 70%; float: right; ">
+                                           <h4>Produits</h4>
+                                           <p style="margin-top: 8px;">See all in <a href="">Category 3</a></p>
+                                       </div>
+                                   </div>
+                                   <div style="width: 50%; float: left;">
+                                       <div style="width: 25%; float: left; border-radius: 10px;  padding:0px 7px;">
+                                           <img src="img/p4.png" alt="" style="width: 70px;">
+                                       </div>
+                                       <div style="width: 70%; float: right; ">
+                                           <h4>Produits</h4>
+                                           <p style="margin-top: 8px;">See all in <a href="">Category 4</a></p>
+                                       </div>
+                                   </div>
+                               </div>
+    
+                               <div style="width: 100%; height: 90px; margin-top: 20px;">
+                                   <div style="width: 50%; float: left;">
+                                       <div style="width: 25%; float: left; border-radius: 10px; padding:0px 7px;">
+                                           <img src="img/p4.png" alt="" style="width: 70px;">
+                                       </div>
+                                       <div style="width: 70%; float: right; ">
+                                           <h4>Produits</h4> 
+                                           <p style="margin-top: 8px;">See all in <a href="">Category 5</a></p>
+                                       </div>
+                                   </div>
+                                   <div style="width: 50%; float: left;">
+                                       <div style="width: 25%; float: left; border-radius: 10px;  padding:0px 7px;">
+                                           <img src="img/p4.png" alt="" style="width: 70px;">
+                                       </div>
+                                       <div style="width: 70%; float: right; ">
+                                           <h4>Produits</h4>
+                                           <p style="margin-top: 8px;">See all in <a href="">Category 6</a></p>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+    
+    
+    
+                       </div>
+    
+                        <!-- Coté droite droite -->
+                    
+                       <div style="width: 25%; float: right; ">
+                           <div style="width: 100%; height: 150px; background-color: grey; margin-bottom: 10px; padding: 5px;">
+                               <div>
+                                   <h4>Compare Products</h4>
+                                   <br>
+                                   <p>Sony Digital Camera</p>
+                                   <p>Samsung Digital Camera</p>
+                                   <br>
+                               </div>
+                               <div style="width: 100%;">
+                                   <div style="float: left; ">
+                                       <a  style="color: red; margin-left: 20px; text-decoration: none;" href=""><i class="fas fa-trash-alt"></i> Clear </a>
+                                   </div>
+                                   <div style="float: right;">
+                                       <button class="shadow" style="margin-right: 20px; padding: 6px; border-radius: 10px;">Compare</button>
+                                   </div>
+                               </div>
+                           </div>
+                           <div style="width: 100%; height: 150px; background-color: grey; margin-bottom: 10px; padding: 5px;">
+                               <div>
+                                   <h4>My Cart</h4>
+                                   <br>
+                                   <p>Where is 1 item in your shopping cart</p>
+                                   <br>
+                               </div>
+                               <div style="width: 100%;">
+                                   <div style="float: left; ">
+                                       <a style="color: red; margin-left: 20px; text-decoration: none;" href=""><i class="fas fa-trash-alt"></i> Clear</a>
+                                   </div>
+                                   <div style="float: right;">
+                                       <button class="shadow" style="margin-right: 20px; padding: 6px; border-radius: 10px;">Add to cart</button>
+                                   </div>
+                               </div>
+                           </div>
+                           <div style="width: 100%; height: 150px; background-color: grey; margin-bottom: 10px; padding: 5px;">
+                               <iframe width="220" height="140" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                               </iframe>
+                           </div>
+                           <div style="width: 100%; height: 150px; background-color: grey; margin-bottom: 10px;  padding-bottom: 25px; padding-left: 15px;">
+                               <div>
+                                   <h4>Your Shop Poll</h4>
+                                   <br>
+                                   <p>How great is magneto ?</p>
+                                   
+                                   <br>
+                               </div>
+                               <div style="width: 100%;">
+                                   <div>
+                                       <input type="checkbox" name="" id="">
+                                       Great
+                                   </div>
+                                   <div>
+                                       <input type="checkbox" checked name="" id="">
+                                       Amazing
+                                   </div>
+                                   <div>
+                                       <input type="checkbox" name="" id="">
+                                       My shops a succes
+                                   </div>
+                                   <div>
+                                       <input type="checkbox" name="" id="">
+                                       wow
+                                   </div>
+                               </div>
+                           </div>
+    
+                           
+                       </div>
+                   
+                   </div>
+                </div>
+
+                
+            </div>
+            <div style="width: 100%; margin-top: 50px;">
+                
+                <div class="center" >
+                    <div>
+                        <li style="margin-left: 5px; color: #feca57;">About Us |</li>
+                        <li style="margin-left: 5px; color: #feca57;">Customers Services |</li>
+                        <li style="margin-left: 5px; color: #feca57;">Souscribe to RSS <i class="fas fa-rss"></i> |</li>
+                 
+                    </div>
+                </div>
+                <div class="center" >
+                    <div>
+                        <li style="margin-left: 5px; color: #feca57;"> Site Map |</li>
+                        <li style="margin-left: 5px; color: #feca57;"> Search Terms |</li>
+                        <li style="margin-left: 5px; color: #feca57;"> Advanced search |</li>
+                        <li style="margin-left: 5px; color: #feca57;"> Orders & Returns |</li>
+                        <li style="margin-left: 5px; color: #feca57;"> Contact Us </li>
+                    </div>
+                    
+                </div>
+                <div class="center"  style="margin-top: 30px; margin-bottom: 70px;">
+                    <p>Copyright Information</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+
+
+</script>
+
+<script>
+    function myFunction() {
+       var element = document.getElementById("myDIV");
+       element.classList.add("blue");
+    }
+    </script>
+</html>
+
+<script>
+    function myFunction2() {
+       var element = document.getElementById("myDIV");
+       element.classList.add("red");
+    }
+    </script>
+
+
+</html>
+
+
+<script>
+    function myFunction3() {
+       var element = document.getElementById("myDIV");
+       element.classList.add("green");
+    }
+</script>
+
+<script>
+    function myFunction4() {
+       var element = document.getElementById("myDIV");
+       element.classList.add("orange");
+    }
+</script>
+
+
+<script>
+    function myFunction5() {
+       var element = document.getElementById("myDIV");
+       element.classList.add("cyan");
+    }
+</script>
+
+<script>
+    function myFunction6() {
+       var element = document.getElementById("myDIV");
+       element.classList.add("purple");
+    }
+</script>
+
+<script>
+    function myFunction7() {
+       var element = document.getElementById("myDIV");
+       element.classList.add("grey");
+    }
+    </script>
+
+<script>
+    function myFunction8() {
+       var element = document.getElementById("myDIV");
+       element.classList.add("pink");
+    }
+    </script>
+</html>
+
+
+   <!-- <li>My accoubt</li>
+                    <li>My Whishlist</li>
+                    <li>My cart</li>
+                    <li>Checkout</li>
+                    <li>Login</li> -->
